@@ -1,0 +1,459 @@
+{
+  "id": "eb3a60be-e4d0-4314-800b-0b9864698965",
+  "version": "2.0",
+  "name": "FrontseatGroup",
+  "url": "https://www.frontseat.co.za/",
+  "tests": [{
+    "id": "30584a47-2894-44e6-a620-b58e18cd5682",
+    "name": "Frontseat Frontend",
+    "commands": [{
+      "id": "99079283-740e-4ecb-8687-4da2b2ea8af6",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.frontseat.co.za/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71f26041-2d7f-4a06-bbea-c30acaed6e30",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee09e4a5-f80f-4909-bc6b-45a908d205e9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=HOME",
+      "targets": [
+        ["linkText=HOME", "linkText"],
+        ["css=#menu-item-728 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'HOME')])[2]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-728']/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.frontseat.co.za/#sticky-wrapper']", "xpath:href"],
+        ["xpath=//div/div[3]/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75d55adb-67a5-4590-bd35-baede0685aea",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=ABOUT US",
+      "targets": [
+        ["linkText=ABOUT US", "linkText"],
+        ["css=#menu-item-569 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'ABOUT US')])[2]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-569']/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.frontseat.co.za/#av_section_3'])[2]", "xpath:href"],
+        ["xpath=//div/div[3]/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f0df5ab-fa72-48d7-9ba5-606315837123",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ABOUT US",
+      "targets": [
+        ["linkText=ABOUT US", "linkText"],
+        ["css=#menu-item-569 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'ABOUT US')])[2]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-569']/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.frontseat.co.za/#av_section_3'])[2]", "xpath:href"],
+        ["xpath=//div/div[3]/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f1db483-5bb1-417c-a276-cd6741e5b38a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,912)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "478d30c6-89b7-4b05-b673-7cb3a06baba4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SERVICES",
+      "targets": [
+        ["linkText=SERVICES", "linkText"],
+        ["css=#menu-item-570 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'SERVICES')])[2]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-570']/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.frontseat.co.za/#av_section_4']", "xpath:href"],
+        ["xpath=//div/div[3]/div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bf059c6-1046-40c6-87e2-227aa6d14d9e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1584)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82fa64e0-d725-4351-ba88-1c798bd87401",
+      "comment": "",
+      "command": "click",
+      "target": "id=menu-main-menu",
+      "targets": [
+        ["id=menu-main-menu", "id"],
+        ["css=#menu-main-menu", "css:finder"],
+        ["xpath=//ul[@id='menu-main-menu']", "xpath:attributes"],
+        ["xpath=//div[@id='navigation']/div/ul", "xpath:idRelative"],
+        ["xpath=//div/div[3]/div/div/ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5c45326-39ff-46be-aaaa-cb4f88837929",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CASE STUDIES",
+      "targets": [
+        ["linkText=CASE STUDIES", "linkText"],
+        ["css=#menu-item-571 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'CASE STUDIES')])[2]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-571']/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.frontseat.co.za/#av_section_7'])[2]", "xpath:href"],
+        ["xpath=//div/div[3]/div/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f06038e1-cb05-4bb9-aefb-69625471560c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=BLOG",
+      "targets": [
+        ["linkText=BLOG", "linkText"],
+        ["css=#menu-item-572 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'BLOG')])[2]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-572']/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.frontseat.co.za/#av_section_9'])[2]", "xpath:href"],
+        ["xpath=//div/div[3]/div/div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c9858e2-b6a5-4f4b-b4cd-cb9a4528f435",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CONTACT US",
+      "targets": [
+        ["linkText=CONTACT US", "linkText"],
+        ["css=#menu-item-573 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'CONTACT US')])[2]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-573']/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.frontseat.co.za/#av_section_10']", "xpath:href"],
+        ["xpath=//div/div[3]/div/div/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62cde3df-2980-4c0f-a07e-f5a7b194fcaf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4730)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15c83f15-8adb-4632-a2d4-1e9a65f734a8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=#IMPROOVA",
+      "targets": [
+        ["linkText=#IMPROOVA", "linkText"],
+        ["css=#menu-item-1596 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'#IMPROOVA')])[2]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-1596']/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.frontseat.co.za/wp-content/uploads/2019/04/IMPROOVA-CAMPAIGN-CI.pdf'])[2]", "xpath:href"],
+        ["xpath=//div/div[3]/div/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4487",
+      "windowTimeout": 2000
+    }, {
+      "id": "5c991c91-a139-4f68-a3f8-605a2cb63888",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e78ec02d-8ad9-41d0-9e57-1d4009f82cec",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4487}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6548e339-ed72-49c2-8d36-1b2f9334f1a5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d7adae6-c827-4d6d-aab2-17ff19435ffe",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(1) > li",
+      "targets": [
+        ["css=a:nth-child(1) > li", "css:finder"],
+        ["xpath=//div[@id='sticky-wrapper']/div/div[3]/div[2]/ul/a/li", "xpath:idRelative"],
+        ["xpath=//a/li", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9443",
+      "windowTimeout": 2000
+    }, {
+      "id": "f8c661ce-843f-4123-b674-e3aa4226f082",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9443}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f644d034-617a-4162-a9b4-44d780fc135c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ffc413d2-15cc-49ef-92ea-5f2db668a214",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(2) img",
+      "targets": [
+        ["css=a:nth-child(2) img", "css:finder"],
+        ["xpath=//img[contains(@src,'http://www.frontseat.co.za/wp-content/uploads/2015/10/twitter-icon-white.png')]", "xpath:img"],
+        ["xpath=//div[@id='sticky-wrapper']/div/div[3]/div[2]/ul/a[2]/li/img", "xpath:idRelative"],
+        ["xpath=//a[2]/li/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8072",
+      "windowTimeout": 2000
+    }, {
+      "id": "57413ae7-449d-4a50-9d9b-06318382cb98",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8072}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b1bf775-700f-4765-85c5-138366f462f6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5ef799b-690d-4e38-bd71-29d7e6c82513",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(3) img",
+      "targets": [
+        ["css=a:nth-child(3) img", "css:finder"],
+        ["xpath=//img[contains(@src,'http://www.frontseat.co.za/wp-content/uploads/2018/10/instagram-icon-white.png')]", "xpath:img"],
+        ["xpath=//div[@id='sticky-wrapper']/div/div[3]/div[2]/ul/a[3]/li/img", "xpath:idRelative"],
+        ["xpath=//a[3]/li/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5100",
+      "windowTimeout": 2000
+    }, {
+      "id": "7bd323c0-e105-49ec-bc97-d0d953b891f4",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5100}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7bf0b705-f435-4629-8b63-fddf75aba438",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6a154c5-134c-4094-a408-e57146239b24",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.avia-smallarrow-slider-heading .next-slide", "css:finder"],
+        ["xpath=(//a[contains(text(),'Next')])[2]", "xpath:link"],
+        ["xpath=//div[@id='av_section_13']/div/div/div/div/div/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#next')])[3]", "xpath:href"],
+        ["xpath=//div[17]/div/div/div/div/div/div/div[2]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df216c10-2109-4948-863a-f56f20aec972",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Next",
+      "targets": [
+        ["linkText=Next", "linkText"],
+        ["css=.avia-smallarrow-slider-heading .next-slide", "css:finder"],
+        ["xpath=(//a[contains(text(),'Next')])[2]", "xpath:link"],
+        ["xpath=//div[@id='av_section_13']/div/div/div/div/div/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#next')])[3]", "xpath:href"],
+        ["xpath=//div[17]/div/div/div/div/div/div/div[2]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ed7c64d-991e-4bba-b725-7736a11ae29e",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcb3949f-c871-4940-95a4-5b6c14348c6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > .gm-control-active:nth-child(1)",
+      "targets": [
+        ["css=div:nth-child(1) > .gm-control-active:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='mapDiv']/div/div[3]/div[12]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6dcc18d9-34c9-4619-b6b2-f92ea7004539",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gm-control-active:nth-child(3)",
+      "targets": [
+        ["css=.gm-control-active:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='mapDiv']/div/div[3]/div[12]/div/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39f52ae6-448a-42b9-ad64-d8f849eab425",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gm-control-active:nth-child(3)",
+      "targets": [
+        ["css=.gm-control-active:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='mapDiv']/div/div[3]/div[12]/div/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56f65f30-b066-4da2-8793-113844545794",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.gm-control-active:nth-child(3)",
+      "targets": [
+        ["css=.gm-control-active:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='mapDiv']/div/div[3]/div[12]/div/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43e2a87d-5a6e-4009-811c-3229453ff80d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gm-style:nth-child(3) > div > div:nth-child(2)",
+      "targets": [
+        ["css=.gm-style:nth-child(3) > div > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='mapDiv']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20f5f714-7f52-4cdd-a685-c74689918ccc",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.gm-style:nth-child(3) > div > div:nth-child(2)",
+      "targets": [
+        ["css=.gm-style:nth-child(3) > div > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='mapDiv']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "529,323"
+    }, {
+      "id": "1008ea2e-92c3-4e17-abff-6ffda7e9b434",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.gm-style:nth-child(3) > div > div:nth-child(2)",
+      "targets": [
+        ["css=.gm-style:nth-child(3) > div > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='mapDiv']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "529,323"
+    }, {
+      "id": "cc56fee6-6b73-42dd-9e3b-e824e85e61fc",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.gm-style:nth-child(3) > div > div:nth-child(2)",
+      "targets": [
+        ["css=.gm-style:nth-child(3) > div > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='mapDiv']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "529,323"
+    }, {
+      "id": "82a2f145-72aa-47e2-a439-320f03375526",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gm-style:nth-child(3) > div > div:nth-child(2)",
+      "targets": [
+        ["css=.gm-style:nth-child(3) > div > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='mapDiv']/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4091594-21c3-464f-91c2-e8eece0cef5c",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "7110a038-db19-4b82-9771-37725ce92113",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logo-container img",
+      "targets": [
+        ["css=.logo-container img", "css:finder"],
+        ["xpath=//img[@alt='Frontseat Home']", "xpath:img"],
+        ["xpath=//div[@id='sticky-wrapper']/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d471289-d686-4096-926a-aeafed17e578",
+      "comment": "",
+      "command": "quit",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9e3b5840-fdee-4749-9790-b81cecfed8e0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["30584a47-2894-44e6-a620-b58e18cd5682"]
+  }],
+  "urls": ["https://www.frontseat.co.za/"],
+  "plugins": []
+}
